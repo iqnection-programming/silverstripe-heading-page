@@ -1,0 +1,26 @@
+{
+	"name": "iqnection/silverstripe-heading-page",
+	"description": "Redirector page for parent pages",
+	"type": "silverstripe-vendormodule",
+	"keywords": ["iqnection"],
+	"license": "BSD-3-Clause",
+	"authors": [
+        {
+            "name": "IQnection",
+            "homepage": "https://www.iqnection.com"
+        }
+    ],
+	"require": {
+		"silverstripe/cms": "^4.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"IQnection\\HeadingPage\\": "src/"
+		}
+	},
+	"extra": {
+		"expose": [
+			"client"
+		]
+	}
+}
