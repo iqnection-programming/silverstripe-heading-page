@@ -8,7 +8,7 @@ class HeadingPage extends \Page
 {
 	private static $table_name = 'HeadingPage';
 
-	private static $icon = "iqnection/heading-page:client/images/icon-heading-file.gif";
+	private static $icon = "iqnection/silverstripe-heading-page:client/images/icon-heading-file.gif";
 
 	private static $search_config = array(
 		"ignore_in_search" => true
